@@ -1,7 +1,7 @@
 # Fitness & Wellness Management System
 
 ## 1. Project Overview
-The **Fitness & Wellness Management System** is designed to manage members, memberships, trainers, classes, class schedules, and equipment for a fitness center or wellness club.  
+The **Fitness & Wellness Management System** using SQL (MySQL) is designed to manage members, memberships, trainers, classes, class schedules, and equipment for a fitness center or wellness club.  
 The system streamlines the process of:
 - Tracking memberships
 - Assigning trainers to classes
