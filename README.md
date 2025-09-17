@@ -43,7 +43,7 @@ The system streamlines the process of:
 
 ---
 
-## 5. Business Rules
+## 4. Business Rules
 - A member can have multiple memberships (e.g., overlapping or renewing)  
 - Each class is handled by one trainer, but a trainer can handle multiple classes  
 - Class schedules should not overlap for the same trainer  
