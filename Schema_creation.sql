@@ -1,5 +1,5 @@
 -- Create database
-CREATE DATABASE fitness_management_system;  -- fixed typo "fitnees"
+CREATE DATABASE fitness_management_system;
 USE fitness_management_system;
 
 -- =========================
