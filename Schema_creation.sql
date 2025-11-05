@@ -109,6 +109,18 @@ CREATE TABLE tbl_equipment_maintenance (
     CHECK (maintenance_date >= (SELECT purchase_date FROM tbl_equipment WHERE tbl_equipment.equipment_id = equipment_id)) -- logical check
 );
 
+
+-- =========================
+-- 9. Error Log Table
+-- =========================
+CREATE TABLE tbl_errorlogtable (
+    errorcode INT,
+    errormsg VARCHAR(500),
+    sp_name VARCHAR(100),
+    error_source VARCHAR(50),
+    createdate DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
 -- =========================
 -- Sample Selects
 -- =========================
